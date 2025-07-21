@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My first site</title>
+</head>
+<body> 
+    <header>
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" data-set="settings">
+            <span></span>
+        </label> 
+        <ul class="header_list">
+            <!-- <li>Brightness <input type="range" id="bright"></li> -->
+
+            <li id="li_1"><span id="li_sound">Sound</span>
+                <label id="sound" class="custom_check">
+                    <input type="checkbox" class="check" id="sound_inp">
+                    <div class="switch" id="sound_div"></div>
+                </label>
+            </li>
+
+            <li><span id="li_music">Music</span></li> 
+            <li id="li_3"><audio src="AXIS1237_47_Crush_30.wav" controls loop></audio></li>
+
+            <li><span id="li_lang">Language:</span></li>
+            <li id="li_5"><span><img title="ru" loading="lazy" src="https://fcminsk.by/wp-content/plugins/gtranslate/flags/svg/ru.svg" width="40" height="40" alt="ru"></span> <span><img title="eng" loading="lazy" src="https://fcminsk.by/wp-content/plugins/gtranslate/flags/svg/en.svg" width="40" height="40" alt="en"></span> </li>
+            <li id="li_6">
+                <label id="lang_ru" class="custom_radio">
+                    <input type="radio" name="lang" class="lang_inp" id="ru_inp">
+                    <div class="radio" id="ru"></div>
+                </label>
+            </li>
+            <li id="li_7">
+                <label id="lang_eng" class="custom_radio">
+                    <input type="radio" name="lang" class="lang_inp" id="eng_inp" checked>
+                    <div class="radio" id="eng"></div>
+                </label>
+            </li>
+            
+            <li id="li_8"><span id="li_dark">Dark mode</span>
+                <label id="dark" class="custom_check">
+                    <input type="checkbox" class="check" id="dark_inp">
+                    <div class="switch" id="dark_div" style="border-color: #854442"></div>
+                </label>
+            </li>
+        </ul>
+        <h1 id="h1_head">Egorio.by</h1>
+        <img src="https://i.pinimg.com/736x/2c/f5/58/2cf558ab8c1f12b43f7326945672805e.jpg"
+        alt="emrty accaunt" id="acc_img">
+    </header>
+    <aside id="aside_top">
+        <big id="aside_big">Go to:</big><br>
+        <nav>
+            <li><a href="accaunt.html" id="nav_1">Accaunt</a></li>
+            <li><a href="shop.html" id="nav_2">Shop</a></li>
+            <li><a href="about.html" id="nav_3">More</a></li>
+        </nav>
+    </aside>
+    <main>
+        <h1 id="h1_main"><big>The best internet-shop for all time</big></h1><br>
+        <h3 id="h3_main">Here you can buy many products for every
+            taste and color at low prices.
+            Check it out for yourself by following
+            the link on the main side. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Architecto 
+            tempora repellendus doloribus sunt corporis
+            facilis.</h3>
+    </main>
+    <footer><h1 id="h1_footer">Made by ESHst 2024</h1></footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

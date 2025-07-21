@@ -1,0 +1,22 @@
+img{
+    border-radius: 50px;
+}
+
+summary {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #3c2f2f;
+    background: #fff4e6;
+    border: 2px solid #3c2f2f;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px;
+    transition: all 0.3s;
+}
+
+summary:hover {
+    color: #fff4e6;
+    background: #3c2f2f;
+    transform: scale(1.1);
+}
